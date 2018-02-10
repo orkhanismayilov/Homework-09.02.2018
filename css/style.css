@@ -33,6 +33,17 @@ a:hover {
     opacity: 0.6;
 }
 
+#heading .navbar {
+    transition: 0.5s;
+}
+
+#heading .navbar.fixed {
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    background-color: #072151;
+}
+
 #heading .navbar-brand {
     color: white;
     text-transform: uppercase;
@@ -93,6 +104,7 @@ a:hover {
 }
 
 #heading .section_content {
+    margin-top: 70px;
     padding: 50px 0 0;
 }
 
@@ -291,19 +303,222 @@ a:hover {
     margin-bottom: 50px;
 }
 
-#dist .image img{
+#dist .image img {
     width: 100%;
 }
 
-#dist .top, #dist .bottom{
+#dist .top,
+#dist .bottom {
     padding: 30px 0;
 }
 
-#dist .content_title{
+#dist .content_title {
     font-size: 20px;
     font-weight: 700;
 }
 
-#dist .content_text{
+#dist .content_text {
     margin-bottom: 0;
+}
+
+
+/* Certificate Section */
+
+#cert {
+    padding: 50px 0;
+    background-color: #efefef;
+}
+
+#cert .image img {
+    width: 100%;
+}
+
+#cert .section_title {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+#cert .section_title_text {
+    font-size: 22px;
+}
+
+#cert .cert_btn {
+    color: white;
+    background-color: #55b4d4;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px 50px;
+}
+
+#cert .cert_btn:hover {
+    background-color: #327a92;
+}
+
+
+/* Contact Section */
+
+#contact {
+    padding: 50px 0;
+}
+
+#contact .section_title {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+#contact .contact_form {
+    width: 75%;
+}
+
+#contact .form-group label {
+    font-weight: 700;
+}
+
+#contact .form-group input,
+#contact .form-group textarea {
+    background-color: #efefef;
+}
+
+#contact .form_btn {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-color: #55b4d4;
+    padding: 10px 50px;
+    color: white;
+}
+
+#contact .form_btn:hover {
+    background-color: #327a92;
+}
+
+
+/* Social Section */
+
+#social {
+    background-image: url(../img/para-3.jpg);
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 0 0 80px;
+}
+
+#social .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    background-color: rgb(255, 255, 255)
+}
+
+#social .section_title {
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+#social .social_links {
+    list-style-type: none;
+    cursor: pointer;
+}
+
+#social .social_items {
+    display: inline-block;
+    height: 45px;
+    width: 45px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+#social .social_items:hover {
+    box-shadow: 0 0 20px 2px white;
+}
+
+#social .social_items a {
+    color: white;
+    font-size: 20px;
+}
+
+#facebook {
+    background-color: #4267b2;
+}
+
+#twitter {
+    background-color: #1da1f2;
+}
+
+#google {
+    background-color: #db4437;
+}
+
+#vk {
+    background-color: #5181b8;
+}
+
+#ok {
+    background-color: #ee8208;
+}
+
+#pinterest {
+    background-color: #bd081c;
+}
+
+#mail {
+    background-color: #0067b8;
+}
+
+
+/* Feedback Section */
+
+#feedback {
+    padding: 50px 0;
+}
+
+#feedback .section_title {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+#feedback .section_title_text {
+    font-size: 22px;
+    margin-bottom: 60px;
+}
+
+#feedback .feedback_card {
+    width: 90%;
+    background-color: #efefef;
+    padding: 60px 30px 30px;
+}
+
+#feedback .feed_img {
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+#feedback .username {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+
+/* Footer */
+
+footer {
+    padding: 20px;
+    background-color: #2e2e2e;
+}
+
+footer p.footer {
+    margin-bottom: 0;
+    color: white;
+    font-size: 14px;
 }

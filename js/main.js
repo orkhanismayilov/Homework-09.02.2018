@@ -6,5 +6,12 @@ $(document).ready(function () {
         $(this).find(".dropdown-menu").fadeOut(300);
     });
 
-
+    // Navbar Fixed Toggle
+    $(window).scroll(function() {
+        if ($(document).scrollTop() > 0) {
+          $("#heading .navbar").addClass("fixed");
+        } else {
+          $("#heading .navbar").removeClass("fixed");
+        }
+      });
 });
