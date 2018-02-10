@@ -1,0 +1,309 @@
+body {
+    font-family: 'Comfortaa';
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* Heading Section */
+
+#heading {
+    background-image: url(../img/headpara.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 0 0 70px;
+}
+
+#heading .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(7, 33, 81);
+    opacity: 0.6;
+}
+
+#heading .navbar-brand {
+    color: white;
+    text-transform: uppercase;
+    transition: 0.3s;
+    font-weight: 700;
+    margin-left: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 3px;
+}
+
+#heading .navbar-brand:hover {
+    box-shadow: 0 0 9px 3px white;
+}
+
+#heading .nav-link {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+
+#heading .nav-link:hover {
+    box-shadow: 0 0 9px 3px white;
+}
+
+#heading .dropdown-menu {
+    background-color: #072151;
+}
+
+#heading .dropdown-item {
+    color: white;
+    text-transform: capitalize;
+    transition: 0.3s;
+}
+
+#heading .dropdown-item:hover {
+    background-color: transparent;
+    color: #55b4d4;
+}
+
+#heading a.free_down {
+    display: inline-flex;
+    padding: 5px 30px;
+    background: #55b4d4;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 700;
+    color: white;
+    margin-right: 100px;
+    margin-left: 20px;
+    transition: 0.3s;
+}
+
+#heading a.free_down:hover {
+    background: #327a92;
+}
+
+#heading .section_content {
+    padding: 50px 0 0;
+}
+
+#heading .section_title {
+    color: white;
+    padding: 50px 0 30px;
+    font-weight: 700;
+    font-size: 60px;
+}
+
+#heading .section_subtitle {
+    color: white;
+    padding: 0 0 30px;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+#heading .section_title_text {
+    color: white;
+    padding: 0 0 20px;
+    font-size: 20px;
+}
+
+#heading .section_title_btn {
+    color: white;
+    border: 2px solid white;
+    padding: 10px 45px;
+    font-weight: 700;
+}
+
+#heading .section_title_btn:hover {
+    background: white;
+    color: #55b4d4;
+}
+
+
+/* Courses Section */
+
+#courses {
+    padding: 50px 0 0;
+    background-color: #efefef;
+}
+
+#courses .section_title {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+#courses .card {
+    width: 95%;
+    margin: 0 auto;
+    transition: box-shadow 0.3s;
+    margin-bottom: 70px;
+}
+
+#courses .card:hover {
+    box-shadow: 0 0 20px 2px grey;
+}
+
+#courses .card .card-body .card-title {
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+#courses .card .card-body .card-text {
+    text-align: left !important;
+    margin-bottom: 20px;
+}
+
+#courses .card .card-body .card_btn {
+    background-color: #55b4d4;
+    width: 50%;
+    padding: 13px 0;
+    color: white;
+    font-weight: 700;
+}
+
+#courses .card .card-body .card_btn:hover {
+    background: #327a92;
+}
+
+
+/* Teachers Section */
+
+#teachers {
+    padding: 50px 0;
+}
+
+#teachers .section_title {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+#teachers .section_title_text {
+    font-size: 22px;
+    margin-bottom: 50px;
+}
+
+#teachers .media {
+    width: 75%;
+    padding: 30px;
+    background: #efefef;
+    margin-bottom: 40px;
+}
+
+#teachers .teacher_img {
+    width: 20%;
+}
+
+#teachers .user_text {
+    margin-bottom: 20px;
+}
+
+#teachers .user_name {
+    font-weight: 700;
+    font-size: 20px;
+    padding: 15px 0 0;
+    margin-bottom: 0;
+}
+
+#teachers .user_stat {
+    margin-bottom: 0;
+}
+
+
+/* Discount Section */
+
+#discount {
+    background-image: url(../img/para-2.jpg);
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 0 0 50px;
+}
+
+#discount .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.7;
+}
+
+#discount .section_title {
+    margin-top: 50px;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+#discount .section_title_text {
+    font-size: 22px;
+}
+
+#discount .content_text {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+#discount .call_btn i {
+    font-size: 22px;
+    margin-right: 10px;
+}
+
+#discount .call_btn {
+    padding: 13px 50px;
+    background: #55b4d4;
+    color: white;
+    margin-top: 20px;
+}
+
+#discount .call_btn:hover {
+    background-color: #327a92;
+}
+
+
+/* Distance Section */
+
+#dist {
+    padding: 50px 0;
+}
+
+#dist .section_title {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+#dist .section_title_text {
+    font-size: 22px;
+    margin-bottom: 50px;
+}
+
+#dist .image img{
+    width: 100%;
+}
+
+#dist .top, #dist .bottom{
+    padding: 30px 0;
+}
+
+#dist .content_title{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#dist .content_text{
+    margin-bottom: 0;
+}
